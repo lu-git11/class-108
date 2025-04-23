@@ -1,0 +1,23 @@
+.about{
+    margin: 10px;
+}
+
+
+img{
+    margin: 10px;
+    width: 100px;
+
+}
+
+h5{
+    background-color: rgb(252, 255, 62);
+    width: 200px;
+    justify-self: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.about button{
+    background-color: aquamarine;
+}
+

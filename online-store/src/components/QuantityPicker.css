@@ -1,0 +1,42 @@
+label{
+    margin: 10px;
+}
+
+.picker{
+    margin: 5px;
+    bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 225px;
+}
+
+button {
+    border-radius: 8px !important;
+    border: 3px solid transparent;
+    margin: 2px;
+    padding: .3em;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: lightcoral;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    
+}
+
+button:hover{
+    border-color: #646cff;
+    background-color: lightblue;
+}
+  
+
+.decrease:hover {
+    border-color: rgb(255, 59, 29);
+    background-color: rgb(255, 59, 29);
+    
+}
+
+.increase:hover{
+    border-color: rgb(62, 250, 20);
+    background-color: rgb(62, 250, 20);
+}

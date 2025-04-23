@@ -1,8 +1,6 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  background-image: url("/img/brick-1230226_1280.jpg");
 }
 
 .logo {
@@ -37,6 +35,6 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+.App h1{
+  background-color: aqua;
 }

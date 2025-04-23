@@ -1,0 +1,39 @@
+.catalog{
+    width: 90%;
+    justify-self: center;
+    
+}
+
+.catalog h1{
+    color: black;
+    background-color: aquamarine;
+    padding: 5px;
+    width: 200px;
+    justify-self: center;
+} 
+
+.catalog .list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.catalog .list .product{
+    margin: 10px;
+
+}
+
+.filter {
+    width: 100%;
+}
+
+.catBtn {
+    background-color: aqua;
+    width: 100px;
+    margin: 10px;
+}
+
+.all{
+    background-color: yellow;
+    
+}
