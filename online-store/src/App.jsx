@@ -14,7 +14,6 @@ function App() {
   return (
     <>
       <Navbar></Navbar>   
-      <h2>We Ship Anywhere!</h2>
       <Home />
       <Catalog></Catalog>
       <About></About>

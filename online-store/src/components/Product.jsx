@@ -10,7 +10,7 @@ function Product(props){
             </div>
             <h3>{props.item.title}</h3>
             <div className="price">
-                <label>price: ${props.item.price.toFixed(2)}</label>
+                <label>Price: ${props.item.price.toFixed(2)}</label>
             </div>
             <div className="quantity">
                 <QuantityPicker></QuantityPicker>
@@ -20,3 +20,5 @@ function Product(props){
 }
 
 export default Product;
+
+

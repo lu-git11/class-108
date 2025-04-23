@@ -5,7 +5,6 @@ nav .menu{
     height: 80px;
     align-items: center;
     background-color: aquamarine;
-    margin-bottom: 10px;
 }
 
 
@@ -46,7 +45,16 @@ nav .cart:hover{
 }
 
 
+/*   transform: translateY(-3px);
+.filters img:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
 
+
+box-sizing: border-box
+  */
 
 
 

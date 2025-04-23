@@ -1,69 +1,69 @@
 export let mockCatalog = [
     {
-        "title": "apple",
+        "title": "Apple",
         "category": "fruit",
         "price": 2.12,
         "image": "/img/apple-brands.svg",
         "_id": "apple",
     },
     {
-        "title": "lemon",
+        "title": "Lemon",
         "category": "fruit",
         "price": .79,
         "image": "/img/lemon-solid.svg",
         "_id": "lemon",
     },
     {
-        "title": "berry",
+        "title": "Berry",
         "category": "fruit",
         "price": 5.34,
         "image": "/img/holly-berry-solid.svg",
         "_id": "berry",
     },
     {
-        "title": "dog",
+        "title": "Dog",
         "category": "animal",
         "price": 20.12,
         "image": "/img/dog-solid.svg",
         "_id": "dog",
     },
     {
-        "title": "cat",
+        "title": "Cat",
         "category": "animal",
         "price": 32.30,
         "image": "/img/cat-solid.svg",
         "_id": "cat",
     },
     {
-        "title": "bird",
+        "title": "Bird",
         "category": "animal",
         "price": 25.76,
         "image": "/img/dove-solid.svg",
         "_id": "bird",
     },
     {
-        "title": "wizard",
+        "title": "Wizard",
         "category": "hat",
         "price": 15.32,
         "image": "/img/hat-wizard-solid.svg",
         "_id": "wizard",
     },
     {
-        "title": "cowboy",
+        "title": "Cowboy",
         "category": "hat",
         "price": 17.71,
         "image": "/img/hat-cowboy-solid.svg",
         "_id": "cowboy",
     },
     {
-        "title": "helmet",
+        "title": "Helmet",
         "category": "hat",
         "price": 200.99,
         "image": "/img/helmet-safety-solid.svg",
         "_id": "helmet",
     },
     {
-        "title": "cowboy2",
+        "title": "Cowboy2",
         "category": "hat",
         "price": 150.09,
         "image": "/img/hat-cowboy-side-solid.svg",
@@ -72,4 +72,4 @@ export let mockCatalog = [
     
 ];
 
-export let mockCategory = ['fruit','animal','hat'];
+export let mockCategory = ['Fruit','Animal','Hat'];

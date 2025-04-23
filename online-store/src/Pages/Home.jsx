@@ -3,7 +3,15 @@ import './Home.css';
 
 function Home(){
     return (
-         <h1 className='home'>Welcome Home</h1>
+        <div className='flex'>
+            <img src="/src/assets/react.svg" alt="" />
+            <div className='home'> 
+                <h1>Welcome Home</h1>
+                <h2>We Ship Anywhere!</h2>
+            </div>
+            <img src="/src/assets/react.svg" alt="" />
+        </div>
+
     );
 }
 
