@@ -1,0 +1,73 @@
+.adm-discount{
+    background-color: #646cff;
+    color: aquamarine;
+    padding: 10px;
+    width: 300px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.adm-discount h3{
+    background-color: aquamarine;
+    color: #646cff;
+    font-weight: bold;
+    line-height: 45px;
+    font-size: 30px;
+}
+
+.adm-discount button{
+    width: 150px;
+    height: 50px;
+    line-height: 0%;
+    text-transform: uppercase;
+}
+
+.adm-discount button:hover{
+    border-color: rgb(51, 193, 146);
+    background-color: aquamarine;
+}
+
+.adm-discount ul{
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+}
+
+.adm-discount li{
+    list-style: none;
+    border: 3px solid #343ab2;
+    background-color: #8f95fd;
+    color: black;
+    width: 250px;
+    align-self: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/*
+.my-form .form-list {
+  list-style: none;
+  margin-top:20px;
+  text-align: left;
+  padding-left: 0;
+}
+
+.my-form .form-list li {
+  border: 1px solid #c4c8ce;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #ebeeef;
+}
+
+.my-form .form-list li:hover {
+  border-left-width: 6px;
+  border-left-color: tomato;
+  font-weight: bold;
+  cursor: pointer;
+}
+*/
+
+

@@ -13,14 +13,14 @@ label{
 button {
     border-radius: 8px !important;
     border: 3px solid transparent;
-    margin: 2px;
+    margin: 3px;
     padding: .3em;
     font-size: 2em;
     font-weight: 500;
     font-family: inherit;
     background-color: lightcoral;
     cursor: pointer;
-    transition: border-color 0.25s;
+    transition: 0.25s;
     
 }
 

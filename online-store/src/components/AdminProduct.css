@@ -1,0 +1,42 @@
+.adm-product{
+    background-color: aquamarine;
+    width: 300px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.adm-product h3{
+    line-height: 45px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.adm-product label{
+    color: #646cff ;
+    margin-top: 2px;
+}
+
+.adm-product button{
+    width: 150px;
+    text-transform: uppercase;
+}
+
+.adm-product ul{
+    padding: 5px; 
+}
+
+.adm-product li{
+    display: flex;
+    list-style-image: url();
+    color: black;
+    background-color: #8f95fd;
+    margin-top: 5px;  
+    border: 3px solid #646cff; 
+}
+
+li img{
+    max-height: 30px;
+}

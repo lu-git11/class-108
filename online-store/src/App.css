@@ -1,6 +1,7 @@
 #root {
   text-align: center;
   background-image: url("/img/brick-1230226_1280.jpg");
+  flex: 1;
 }
 
 .logo {
@@ -35,6 +36,6 @@
   padding: 2em;
 }
 
-.App h1{
-  background-color: aqua;
+.main-content{
+  min-height: calc(100vh - 113px);
 }

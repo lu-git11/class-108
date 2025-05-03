@@ -1,5 +1,18 @@
 .about{
-    margin: 10px;
+    height: 575px;
+}
+
+.about h1{
+    width: 100%;
+    background-color: #646cff;
+    color: aquamarine;
+    font-size: 2.5em;
+}
+
+.about h2{
+    background-color: aliceblue;
+    width: 25%;
+    justify-self: center;
 }
 
 

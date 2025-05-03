@@ -1,0 +1,19 @@
+.admin{
+    min-height: 600px;
+}
+
+.admin h3{
+    background-color: #646cff;
+    color: aquamarine;
+    height: 50px;
+    font-size: 2.5em;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    
+}

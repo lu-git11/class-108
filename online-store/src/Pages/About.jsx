@@ -11,6 +11,7 @@ function About(){
 
     return (
         <div className="about"> 
+        <h1>About Us</h1>
             <img src="/src/assets/react.svg" alt="" />
             <h2>Jeff Jeff</h2>
             { showEmail ? <h5>jeff@sdgku.com</h5> : null }

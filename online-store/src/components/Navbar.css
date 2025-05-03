@@ -7,22 +7,31 @@ nav .menu{
     background-color: aquamarine;
 }
 
+.menu h1:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
 
 nav a{
     text-transform: uppercase;
-    font-size: 18px;
+    border-radius: 11px;
+    border: 3px solid transparent;
+    padding: .1em;
+    margin: 1px;
+    font-size: 1.15em;
     color: #646cff;
     letter-spacing: 1px;
     font-weight: bold;
     text-decoration: none !important;
-    transition: border 0.15s;
+    transition: border 0.25s;
 }
 
 nav a:hover {
     border: 3px solid #646cff;
     background-color: lightblue;
     border-radius: 11px;
-    
+    border-width: 3px;
 }
 
 nav{
@@ -44,17 +53,37 @@ nav .cart:hover{
     cursor: pointer;
 }
 
-
-/*   transform: translateY(-3px);
-.filters img:hover{
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
+.menu button{
+    position: absolute;
+    right: 0px;
+    height: 38px;
+    z-index: 9999;
+    border-radius: 11px !important;
 }
 
+.menu input{
+    border-radius: 11px !important;
+}
 
-box-sizing: border-box
-  */
+.search{
+    border-radius: 50px;
+}
+
+.menu label{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 75px;
+    padding: 2px;
+}
+
+.badge{
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 0px;
+}
+
 
 
 

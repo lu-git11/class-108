@@ -1,23 +1,31 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import"./QuantityPicker.css";
+import DataContext from "../state/DataContext";
 
-function QuantityPicker(){
+function QuantityPicker(props){
     const [quantity, setQuantity] = useState(1);//variable, setter(function) = intial state
+
+    let addToCart = useContext(DataContext).addToCart;
 
     function increase(){
         let val = quantity + 1;
         setQuantity(val);
+        props.onChange(val);
     }
 
     function decrease(){
         let val = quantity - 1;
         if(val >= 0){
         setQuantity(val);
+        props.onChange(val);
         }
     }
 
     function add(){
-        console.log("Item added!");
+        
+        let prodForCart = {...props.data, quantity};
+        console.log("Item added!", prodForCart);
+        addToCart(prodForCart);
     }
 
     return(
