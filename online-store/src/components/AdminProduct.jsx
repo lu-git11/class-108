@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import './AdminProduct.css';
+import DataService from '../services/DataService';
+import { useEffect } from 'react';
 
 function AdminProduct(){
     let [allProduct, setAllProduct] = useState([]);
@@ -30,13 +32,27 @@ function AdminProduct(){
         setProduct(copy);
     }
 
-    function save(){
+    async function save(){
         console.log(product);
+        let response = await DataService.saveProd(product);
+        console.log(response);
+
         let copy = [...allProduct];
         copy.push(product);
         setAllProduct(copy);
     }
 
+    async function loadProd() {
+
+        let prod = await DataService.getCatalog();
+        setAllProduct(prod);
+    }
+
+    useEffect(function() {
+        loadProd();
+     }, []);
+    
+        
     return(
         <div className='adm-product'>
             <h3>products</h3>

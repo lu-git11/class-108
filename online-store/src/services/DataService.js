@@ -1,4 +1,8 @@
+
+import axios from 'axios';
+
 export let mockCatalog = [
+
     {
         "title": "Apple",
         "category": "Fruit",
@@ -73,3 +77,29 @@ export let mockCatalog = [
 ];
 
 export let mockCategory = ['Fruit','Animal','Hat'];
+
+class DataService {
+
+    async getCatalog(){
+        let response = await axios.get("http://127.0.0.1:8000/api/products");
+        return response.data;
+
+        // to run without server
+        // return mock_catalog;
+    }
+
+    async getCategories(){
+        let response = await axios.get("http://127.0.0.1:8000/api/categories");
+        return response.data;
+
+        // to run without server
+        // return mock_categories;
+    }
+
+    async saveProd(product){
+        let response = await axios.post("http://127.0.0.1:8000/api/products", product);
+        return response.data;
+    }
+}
+
+export default new DataService();
